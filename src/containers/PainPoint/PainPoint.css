@@ -1,0 +1,124 @@
+.question__container{
+    color: #303242;
+    margin: 3em auto;
+    max-width: 800px;
+    width: 87%;
+}
+
+.top{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.top__header{
+    font-size: 1.8em;
+}
+.top__link{
+    background: #B5CDA3;
+    border-radius: 5px;
+    color: white;
+    padding: .5em 1em;
+}
+
+.filters{
+    display: flex;
+    gap: 1em;
+    justify-content: space-between;
+    margin: 2em 0;
+}
+.filter__header{
+    font-size: 1.3em;
+    font-weight: 400;
+}
+.filter__container{
+    display: flex;
+    list-style: none;
+}
+.filter__container > li{
+    border: 1px solid #C1AC95;
+    border-right: none;
+}
+.filter{
+    background: none;
+    border: none;
+    color: #303242;
+    cursor: pointer;
+    font-size: .9em;
+    padding: .6em .6em;
+    transition: .2s ease-in;
+}
+.filter__container li:last-of-type{
+    border: 1px solid #C1AC95;
+}
+.filter:hover{
+    background: #303242;
+    color: #B5CDA3;
+}
+
+.questions{
+    margin-top: 2em;
+}
+.question{
+    border-top: 1px solid #C1AC95;
+    /* border-bottom: 1px solid #C1AC95; */
+    display: flex;
+    gap: 2em;
+    padding: 1.5em 0;
+}
+.question__vote{
+    text-align: center;
+}
+
+.vote__amount{
+    font-size: 1.5em;
+}
+.vote__text{
+    font-size: .8em;
+}
+
+.question__desc{
+    display: flex;
+    flex-direction: column;
+}
+.question__link:hover{
+    text-decoration: underline;
+}
+.question__header{
+    color: #303242;
+    font-size: 1.2em;
+    margin-bottom: .5em;
+}
+.question__text{
+    margin-bottom: 1em;
+}
+.question__tags{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5em;
+    list-style: none;
+}
+.question__tag{
+    background: #C1AC95;
+    border-radius: 5px;
+    color: white;
+    padding: .2em .8em;
+}
+
+.poster{
+    align-items: center;
+    align-self: flex-end;
+    display: flex;
+    gap: .5em;
+    margin-right: 2em;
+    text-align: center;
+}
+.poster__img{
+    border-radius: 50%;
+    height: 40px;
+    object-fit: cover;
+    width: 40px;
+}
+.poster__name{
+    /* color: #B5CDA3; */
+    font-size: .85em;
+}
