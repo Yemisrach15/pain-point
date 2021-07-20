@@ -7,14 +7,26 @@
 
 .nav{
     align-items: center;
+    box-shadow: 0 0 20px 5px #3032421a;
+    color: #303242;
     display: flex;
     flex-wrap: wrap;
     gap: 1em;
     justify-content: space-between;
-    margin: 1.5em 1.2em;
+    padding: 1.5em 1.2em;
 }
 .nav__brand{
     font-size: 1.8em;
+    font-weight: 500;
+    position: relative;
+}
+.nav__brand::after{
+    content: 'PainPoint';
+    color: #B5CDA3;
+    left: 2px;
+    position: absolute;
+    top: 0;
+    z-index: -1;
 }
 .nav__toggle{
     background: none;

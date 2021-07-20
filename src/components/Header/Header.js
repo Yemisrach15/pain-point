@@ -19,7 +19,7 @@ class Header extends React.Component {
     render () {
         return (
             <header className="nav">
-                <a className="nav__brand" href>PainPoint</a>
+                <a className="nav__brand" href="/">PainPoint</a>
                 <button className="nav__toggle">
                     <i class="fa fa-bars"></i>
                 </button>
@@ -31,8 +31,8 @@ class Header extends React.Component {
                         </div>
                     </form>
                     <ul className="nav__links">
-                        <li className="nav__link"><a href>Log in</a></li>
-                        <li className="nav__link nav__link--filled"><a href>Sign up</a></li>
+                        <li className="nav__link"><a href="/">Log in</a></li>
+                        <li className="nav__link nav__link--filled"><a href="/">Sign up</a></li>
                     </ul>
                 </div>
             </header>
