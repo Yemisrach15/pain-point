@@ -7,6 +7,7 @@ import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Home from './containers/Home/Home';
 import PainPoint from './containers/PainPoint/PainPoint';
+import Login from './containers/Login/Login';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -14,6 +15,7 @@ ReactDOM.render(
     <BrowserRouter>
       <Route exact path="/" component={ Home }/>
       <Route path="/painpoints" component={ PainPoint }/>
+      <Route path="/login" component={ Login } />
     </BrowserRouter>
     <Footer />
   </React.StrictMode>,
