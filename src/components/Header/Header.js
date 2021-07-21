@@ -32,7 +32,7 @@ class Header extends React.Component {
                     </form>
                     <ul className="nav__links">
                         <li className="nav__link"><a href="/login">Log in</a></li>
-                        <li className="nav__link nav__link--filled"><a href="/">Sign up</a></li>
+                        <li className="nav__link nav__link--filled"><a href="/signup">Sign up</a></li>
                     </ul>
                 </div>
             </header>
