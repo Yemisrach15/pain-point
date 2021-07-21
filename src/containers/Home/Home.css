@@ -29,12 +29,12 @@ main{
 .text-green::after{
     content: '';
     background: #C9E4C5;
-    height: 25px;
-    left: 5px;
+    height: 26px;
+    left: 8px;
     opacity: .3;
     position: absolute;
     top: 70%;
-    width: 100%;
+    width: 97%;
 }
 
 .cards{

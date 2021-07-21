@@ -2,14 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter, Route } from 'react-router-dom';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Home from './containers/Home/Home';
+import PainPoint from './containers/PainPoint/PainPoint';
 
 ReactDOM.render(
   <React.StrictMode>
     <Header />
-    <Home />
+    <BrowserRouter>
+      <Route exact path="/" component={ Home }/>
+      <Route path="/painpoints" component={ PainPoint }/>
+    </BrowserRouter>
     <Footer />
   </React.StrictMode>,
   document.getElementById('root')
