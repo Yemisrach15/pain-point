@@ -1,0 +1,113 @@
+textarea{
+    font-family: inherit;
+    resize: none;
+}
+.post__container{
+    color: #303242;
+    margin: 3em auto;
+    max-width: 800px;
+    width: 87%;
+}
+.post__header{
+    font-size: 1.8em;
+    margin-bottom: 1.2em;
+}
+.post__form{
+    border-radius: 10px;  
+    box-shadow: 0px 13px 20px 0px #3032421f;
+    color: #303242;
+    padding: 2em 3em;
+}
+.post__form__group{
+    display: flex;
+    flex-direction: column;
+    gap: .2em;
+    margin-bottom: 1.2em;
+}
+.post__form__label{
+    font-size: 1.1em;
+    font-weight: 700;
+}
+.post__form__input{
+    border: 1px solid #C1AC95;
+    border-radius: 5px;
+    padding: .6em 1.5em .6em 1.2em;
+    width: 100%;
+}
+.post__form__submit{
+    background: #C1AC95;
+    border: none;
+    border: 1px solid #C1AC95;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-top: 1.2em;
+    padding: .8em 1.2em;
+    transition: .1s ease-in-out;
+    text-transform: uppercase;
+}
+.post__form__submit:hover{
+    box-shadow: 0 0 20px #3032421f;
+    transform: scale(1.01);
+}
+.post__format{
+    border: 1px solid #303242;
+    display: flex;
+    justify-content: space-between;
+    padding: .2em .8em;
+    position: relative;
+}
+.formats{
+    display: flex;
+    gap: 1em;
+}
+.format__btn, .format__list__btn{
+    background: none;
+    border: none;
+    color: #303242;
+    cursor: pointer;
+}
+.format__list__btn{
+    border-radius: 4px;
+    font-size: 1.5em;
+    padding: .2em .5em;
+    transform: all .5s;
+}
+.format__list__btn:hover{
+    color: #B5CDA3;
+}
+.format__list__btn--active{
+    background: #303242;
+    color: #B5CDA3;
+}
+.format__list__menu{
+    animation: .5s ease-in-out 0s forwards slide-in;;
+    background: #303242;
+    border-radius: 10px;
+    bottom: 100%;
+    color: #C1AC95;
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+    padding: 1.2em 1.5em;
+    position: absolute;
+    right: 0;
+    width: 50%;
+}
+
+.hidden__list{
+    display: none;
+}
+
+@keyframes slide-in{
+    from{
+        background: white;
+        opacity: 0;
+        transform: translateY(20%);
+    }
+    to{
+        background: #303242;
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}

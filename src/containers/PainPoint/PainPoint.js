@@ -9,7 +9,7 @@ class Questions extends React.Component {
             <main className="question__container">
                 <section className="top">
                     <h1 className="top__header">All PainPoints</h1>
-                    <a className="top__link" href="/">Post painpoint</a>
+                    <a className="top__link" href="/post">Post painpoint</a>
                 </section>
 
                 <section className="filters">

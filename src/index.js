@@ -9,6 +9,7 @@ import Home from './containers/Home/Home';
 import PainPoint from './containers/PainPoint/PainPoint';
 import Login from './containers/Login/Login';
 import Signup from './containers/Signup/Signup';
+import PostPainPoint from './containers/Post PainPoint/PostPainPoint';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -18,6 +19,7 @@ ReactDOM.render(
       <Route path="/painpoints" component={ PainPoint }/>
       <Route path="/login" component={ Login } />
       <Route path="/signup" component={ Signup } />
+      <Route path="/post" component= { PostPainPoint }/>
     </BrowserRouter>
     <Footer />
   </React.StrictMode>,
